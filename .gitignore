@@ -1,0 +1,18 @@
+# dependencies
+/node_modules
+
+# misc
+.env
+
+# tests
+tests/
+test/
+
+# builds
+/build
+/dist
+*.zip
+
+# editors
+.vscode
+.idea
