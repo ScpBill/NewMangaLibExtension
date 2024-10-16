@@ -1,0 +1,39 @@
+{
+  "name": "mangalib-extension",
+  "version": "0.1.0",
+  "author": {
+    "name": "Rin Nohara"
+  },
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:production": "cross-env NODE_ENV=production node scripts/build.js",
+    "build:development": "cross-env NODE_ENV=development node scripts/build.js",
+    "build": "npm run build:production"
+  },
+  "devDependencies": {
+    "@eslint/compat": "^1.1.0",
+    "@eslint/js": "^9.5.0",
+    "eslint": "^9.12.0",
+    "eslint-plugin-react": "^7.34.3",
+    "globals": "^15.6.0",
+    "typescript-eslint": "^7.14.1"
+  },
+  "dependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "@types/react-dom": "^18.3.1",
+    "@types/uuid": "^10.0.0",
+    "@typescript-eslint/parser": "^8.9.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^12.0.2",
+    "cross-env": "^7.0.3",
+    "crypto-browserify": "^3.12.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "fs-extra": "^11.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "terser-webpack-plugin": "^5.3.10",
+    "ts-loader": "^9.5.1",
+    "webpack": "^5.95.0"
+  }
+}
